@@ -1,6 +1,7 @@
 Unity's default ACES has a ridiculously bad color shift issue. It has been broken for at least five years without any official fix, so I built this tool to use in my own game. I figured I would share it here for anyone else who might need it. If you find it helpful, dropping a wishlist on my game ([Angel Zero](https://store.steampowered.com/app/4525180)) would be a massive help, thanks!
 
 ![Samples](https://raw.githubusercontent.com/FcsVorfeed/ACES-1.3-Reference-Gamut-Compression-for-Unity-6-URP/refs/heads/main/Samples.png)
+![SamplesRGB](https://raw.githubusercontent.com/FcsVorfeed/ACES-1.3-Reference-Gamut-Compression-for-Unity-6-URP/refs/heads/main/SamplesRGB.png)
 # ACES Gamut Compress for Unity URP
 
 A small pre-tonemap gamut cleanup pass for Unity URP.
