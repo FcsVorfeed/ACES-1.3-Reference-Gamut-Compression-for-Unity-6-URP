@@ -1,3 +1,5 @@
+
+
 Unity's default ACES has a ridiculously bad color shift issue. It has been broken for at least five years without any official fix, so I built this tool to use in my own game. I figured I would share it here for anyone else who might need it. If you find it helpful, dropping a wishlist on my game ([Angel Zero](https://store.steampowered.com/app/4525180)) would be a massive help, thanks!
 
 ![Samples](https://raw.githubusercontent.com/FcsVorfeed/ACES-1.3-Reference-Gamut-Compression-for-Unity-6-URP/refs/heads/main/Samples.png)
@@ -41,7 +43,7 @@ Then let Unity recompile the project.
 1. Open your URP Renderer Data asset.
 2. Add `AcesGamutCompressRendererFeature` to the renderer feature list.
 3. Enable post-processing on your Camera.
-4. Add `ACES Gamut Compress` to a URP Volume.
+4. Add the `Post-processing/ACES Gamut Compress` volume component to a URP Volume.
 5. In the same Volume, set Unity's built-in `Tonemapping` override to `ACES`.
 
 Default values are intended to be usable out of the box. Tune the parameters only if your project needs a different artistic response.
